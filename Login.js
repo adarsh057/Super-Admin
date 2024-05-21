@@ -166,7 +166,7 @@ return (
          onChangeText={handleusername} placeholder="User Name" />
       </View>
       {erroruserName && (
-              <Text style={{ color:'red', marginLeft:wp('2.5%')}}>*User Name is required</Text>
+              <Text style={{ color:'red', marginLeft:wp('2.5%')}}>*User Name is Required</Text>
             )}
     </View>
      <View style={{...styles.containerthree, marginTop:wp('2.5%')}}>
